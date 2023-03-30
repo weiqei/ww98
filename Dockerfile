@@ -1,7 +1,7 @@
 FROM hectorqin/reader
 
 # 时区
-ENV TZ=Asia/Shanghai
+ENV TZ=Asia/Changsha
 
 EXPOSE 8080
 ENTRYPOINT ["/sbin/tini", "--"]
